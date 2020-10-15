@@ -7,4 +7,18 @@
 <path d="M80.0123 40.632L40.632 80.0124C38.8746 81.7697 38.8746 84.6188 40.632 86.3761C42.3893 88.1335 45.2386 88.1335 46.996 86.3761L86.376 46.9959C88.1334 45.2386 88.1334 42.3893 86.376 40.632C84.6187 38.8747 81.7696 38.8746 80.0123 40.632Z" fill="#A259FF"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_120_27" x1="133.867" y1="144.8" x2="-1.18037e-0
+<linearGradient id="paint0_linear_120_27" x1="133.867" y1="144.8" x2="-1.18037e-06" y2="-5.86667" gradientUnits="userSpaceOnUse">
+<stop offset="0.0743756" stop-color="#0C81B1"/>
+<stop offset="0.572495" stop-color="#1ABCFE"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint1_linear_120_27" x1="28.5333" y1="30.9333" x2="102.133" y2="98.1333" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.459191" stop-color="white"/>
+<stop offset="1" stop-color="#CCCCCC"/>
+</linearGradient>
+<clipPath id="clip0_120_27">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>
