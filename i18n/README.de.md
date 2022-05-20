@@ -35,4 +35,89 @@
 
 <img src="./../assets/Asset.png" width="100%" alt="Mirrorful Dashboard" />
 
-**[Mirrorful](https://mirrorful.com)
+**[Mirrorful](https://mirrorful.com)** ist ein einfaches, Open-Source-Designsystem. Installieren Sie Mirrorful, um Farben und andere Design-Token für Ihr Projekt zu generieren. Importieren Sie diese Tokens dann direkt in Ihre App als CSS-Variablen oder JSON. Nehmen Sie sich heute 5 Minuten Zeit und gestalten Sie für Langlebigkeit und Skalierbarkeit.
+
+Erstellen Sie die Bausteine für eine schnelle Frontend-Entwicklung!
+
+- **Starte neue Projekte mit einer Single Source of Truth**
+- **Ändere visuell dein Theme**
+- **Generiere Farben**
+- 🔜 **Theme-Vorlagen**
+- 🔜 **Lightweight Headless Komponenten Bibliothek**
+- 🔜 **Eslint-Regeln**
+- 🔜 **Teile Tokens zwischen Projekten**
+- 🔜 **Figma-Integration**
+
+Und mehr...
+
+## 🎨 Warum sollte ich Mirrorful nutzen?
+
+Designsysteme sind die Bausteine Ihrer App, aber viele Projekte setzen sie erst ein, wenn es schon zu spät ist, da sie schwer richtig einzurichten sind. Mit Mirrorful können Sie ein grundlegendes Designsystem in wenigen Minuten einrichten und gleichzeitig Flexibilität für spätere Anpassungen bewahren. Es ist leicht und denkbar einfach.
+
+Wir haben es uns zur Aufgabe gemacht, Ihr Projekt so schön wie möglich zu gestalten. Die Messlatte für hochwertiges Design wird immer höher gelegt. Wir möchten allen dabei helfen, neue (und bestehende!) Projekte mit einfachen Designmerkmalen zu versehen.
+
+Einfache Designsysteme beschleunigen auch die Entwicklung - selbst bei Projekten im Frühstadium! Einem Bericht zufolge ist es 47 % schneller, ein einfaches Online-Formular mit einem Designsystem zu erstellen. Ein Designsystem ist nützlich für Ingenieure, Designer und vor allem für Ihre Kunden, damit es nicht für jede Schaltfläche in Ihrer App eine zufällige Farbe gibt.
+
+## 🚀 Los geht's
+
+Mirrorful ist ein NPM-Paket, das als devDependency installiert werden sollte.
+
+```bash
+npm install mirrorful -D
+```
+
+oder
+
+```bash
+yarn add mirrorful --dev
+```
+
+## ✨ Nutzung
+
+Die folgenden Befehle starten einen lokalen Editor unter `localhost:5050`.
+
+```
+yarn run mirrorful
+```
+
+or
+
+```
+npx mirrorful
+```
+
+## 💿 Formate exportieren
+
+Nachdem Sie Ihr Theme im Editor konfiguriert haben, können Sie es exportieren, um es in Ihrer Anwendung zu verwenden.
+
+Wir exportieren derzeit in folgende Dateitformate: `.js`, `.ts`, `.css`, `.scss`, `.json`
+
+Sie können dann entweder Ihre neuen Token als CSS-Variablen oder JavaScript-Konstanten verwenden!
+
+**Verwenden von CSS-Variablen**
+
+Beispiel:
+
+```css
+.primary-button {
+  background-color: var(--color-primary);
+}
+
+.primary-button:hover {
+  background-color: var(--color-primary-hover);
+}
+```
+
+**JavaScript-Konstanten verwenden**
+
+Beispiel:
+
+```javascript
+<button backgroundColor={{ Tokens.primary.base }}>Click here</button>
+```
+
+## 🤝 Agnostische Komponentenbibliothek
+
+Wir bemühen uns, unabhängig von Komponentenbibliotheken zu sein. Ganz gleich, ob Sie Material UI, Chakra UI, Tailwind, Ant Design oder sogar Ihre eigene Bibliothek verwenden, Mirrorful fügt sich nahtlos ein.
+
+⚠️ `create-react-app` warnt möglicherweise, dass Sie versuchen, von außerhalb des `src`-Verzeichnisses zu importieren. Wir arbeiten an einer langfristigen Lösung, aber im Moment würden wir empfehl
