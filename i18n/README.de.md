@@ -162,4 +162,22 @@ Sie wissen nicht, wo Sie anfangen sollen? Sie können:
 
 - [Buchen Sie ein kostenloses, druckfreies Pairing mit einem unserer Teammitglieder (auf Englisch)](https://usemotion.com/meet/teddyni/meet?d=15)!
 
-- Treten Sie unserem [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) bei und stellen Sie uns dort Ihre Fra
+- Treten Sie unserem [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) bei und stellen Sie uns dort Ihre Fragen.
+
+Unabhängig von dem PR werden alle GitHub-Avatare der Mitwirkenden mit deren Erlaubnis in die README von Mirrorful aufgenommen.
+
+## 🪞 Mitwirkende
+
+[//]: contributor-faces
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<a href="https://github.com/alexdanilowicz"><img src="https://avatars.githubusercontent.com/u/29822597?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/teddarific"><img src="https://avatars.githubusercontent.com/u/16343600" width="50" height="50" alt=""/></a> <a href="https://github.com/isabellytubao"><img src="https://avatars.githubusercontent.com/u/113177368" width="50" height="50" alt=""/></a> <a href="https://github.com/gfang200"><img src="https://avatars.githubusercontent.com/u/13005240?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/sallyxu"><img src="https://avatars.githubusercontent.com/u/1229627" width="50" height="50" alt=""/></a> <a href="https://github.com/zachsnoek"><img src="https://avatars.githubusercontent.com/u/26049962" width="50" height="50" alt=""/></a>
+
+## 🌎 Übersetzungen
+
+Mirrorful ist derzeit auf Englisch, Deutsch und demnächst auch auf Spanisch verfügbar. Helfen Sie uns, unsere Dokumentation und Benutzeroberfläche in Ihre Sprache zu übersetzen!
+
+Alle Informationen finden Sie unter [diesem Issue](https://github.com/Mirrorful/mirrorful/issues/18).
