@@ -120,4 +120,46 @@ Beispiel:
 
 Wir bemühen uns, unabhängig von Komponentenbibliotheken zu sein. Ganz gleich, ob Sie Material UI, Chakra UI, Tailwind, Ant Design oder sogar Ihre eigene Bibliothek verwenden, Mirrorful fügt sich nahtlos ein.
 
-⚠️ `create-react-app` warnt möglicherweise, dass Sie versuchen, von außerhalb des `src`-Verzeichnisses zu importieren. Wir arbeiten an einer langfristigen Lösung, aber im Moment würden wir empfehl
+⚠️ `create-react-app` warnt möglicherweise, dass Sie versuchen, von außerhalb des `src`-Verzeichnisses zu importieren. Wir arbeiten an einer langfristigen Lösung, aber im Moment würden wir empfehlen, eine Kopie des Ordners `.mirrorful` in Ihrem `src`-Verzeichnis zu erstellen.
+
+Schauen Sie sich die Beispiele an:
+
+- [Mirrorful 🤝 Chakra UI](https://github.com/Mirrorful/mirrorful/tree/main/examples/with-chakra-ui)
+- [Mirrorful 🤝 Basic Create React App](https://github.com/Mirrorful/mirrorful/tree/main/examples/create-react-app)
+
+Suchen Sie ein konkretes Beispiel? [Fragen Sie hier eines an!](https://github.com/Mirrorful/mirrorful/issues)
+
+## ❤️ Community & Unterstützung
+
+- [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) - für Live-Diskussionen mit der Community und dem Mirrorful-Team.
+- [GitHub Discussions](https://github.com/Mirrorful/mirrorful/discussions) - für Hilfe bei der Erstellung und tiefergehende Gespräche über Funktionen.
+- [GitHub Issues](https://github.com/Mirrorful/mirrorful/issues) - für alle Bugs und Fehler, auf die Sie bei Mirrorful stoßen.
+- [Twitter](https://twitter.com/mirrorful) - Bleiben Sie auf dem Laufenden über die neuesten Produktaktualisierungen. Teilen Sie Ihre Memes!
+
+## 🏘 Open-Source vs. Bezahlt
+
+Dieses Repo ist vollständig MIT-lizenziert, mit Ausnahme derjenigen, die unter dem `ee`-Verzeichnis liegen und Premium-Unternehmensfunktionen enthalten, die eine Mirrorful-Lizenz erfordern. Wir konzentrieren uns derzeit zunächst auf die Entwicklung von Nicht-Unternehmensangeboten, die für die meisten Anwendungsfälle geeignet sein sollten.
+
+Wir arbeiten hart daran, Mirrorful noch umfangreicher zu machen. Benötigen Sie Integrationen oder wollen Sie ein neues Feature? Fühlen Sie sich frei ein [Issue zu erstellen](https://github.com/Mirrorful/mirrorful/issues) oder tragen Sie direkt zum Repository bei. _(Der erste Entwurf dieser README wurde von einem Mitwirkenden erstellt!)_
+
+## 🛡 Sicherheit
+
+Mirrorful nimmt Sicherheitsfragen sehr ernst. Wenn Sie Bedenken bezüglich Mirrorful haben oder glauben, eine Sicherheitslücke entdeckt zu haben, wenden Sie sich bitte an die folgende E-Mail-Adresse [support@mirrorful.io](mailto:support@mirrorful.io). Versuchen Sie in der Nachricht, das Problem zu beschreiben und es im Idealfall zu reproduzieren. Das Team wird sich **unverzüglich** mit Ihnen in Verbindung setzen.
+
+Bitte reichen Sie keine GitHub-Probleme ein und posten Sie keine Sicherheitslücken in unserem öffentlichen Forum, da diese öffentlich sind.
+
+## ⭐ Bleiben Sie auf dem Laufenden
+
+Es gibt eine Menge neuer Funktionen, die sehr häufig erscheinen. Geben Sie diesem Repo eine Stern, um auf dem Laufenden zu bleiben.
+
+<img width="300" src="../assets/tower.png" alt="Bauen">
+
+## 🛠️ Mitwirken
+
+Ob groß oder klein, wir lieben Beiträge. Die Betreuer dieses Repos haben schon früher Open-Source-Projekte aufgebaut und lieben es. Herzlich willkommen!
+
+Sie wissen nicht, wo Sie anfangen sollen? Sie können:
+
+- [Buchen Sie ein kostenloses, druckfreies Pairing mit einem unserer Teammitglieder (auf Englisch)](https://usemotion.com/meet/teddyni/meet?d=15)!
+
+- Treten Sie unserem [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) bei und stellen Sie uns dort Ihre Fra
