@@ -138,4 +138,44 @@ Letar du efter ett specifikt exmepel? [Begär en här!](https://github.com/Mirro
 
 ## ❤️ Gemenskap & Support
 
-- [Slack](https://join.slack
+- [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) - för en levande diskussion med gemenskapen och Mirrorful-teamet.
+- [GitHub Discussions](https://github.com/Mirrorful/mirrorful/discussions) - för hjälp med att bygga och djupare konversationer om funktioner.
+- [GitHub Issues](https://github.com/Mirrorful/mirrorful/issues) - för eventuella buggar och fel som du stöter på när du använder Mirrorful.
+- [Twitter](https://twitter.com/mirrorful) - håll dig uppdaterad med de senaste produktuppdateringarna. Dela dina memes!
+
+## 🏘 Open-source vs. betald
+
+Den här repo:en är helt licensierad under MIT-licensen, med undantag för eventuella filer under en `ee` katalog som innehåller företagsfunktioner s
+om kräver en Mirrorful-licens. För närvarande fokuserar vi på att utveckla icke-företagsmässiga erbjudanden som bör passa de flesta användningsfall.
+
+Vi arbetar hårt för att göra Mirrorful mer omfattande. Behöver du några integreringar eller vill ha en ny funktion?
+Känn dig fri att [skapa en issue](https://github.com/Mirrorful/mirrorful/issues) eller bidra direkt till kodbasen.
+_(Den första versionen av denna README gjordes av en bidragsgivare!)_
+
+## 🛡 Säkerhet
+
+Mirrorful tar säkerhetsfrågor på stort allvar. Om du har några oro kring Mirrorful eller tror att du har upptäckt en sårbarhet,
+vänligen kontakta oss via e-postadressen [support@mirrorful.io](mailto:support@mirrorful.io). Försök att ge en beskrivning av
+problemet och helst en metod för att återskapa det. Vårt team kommer att svara dig **omedelbart**.
+
+## ⭐ Håll dig uppdaterad
+
+Det finns många nya funktioner som kommer mycket frekvent. Klicka på stjärnan på det här projektet för att hålla dig uppdaterad.
+
+<img width="300" src="./assets/tower.png" alt="Build">
+
+## 🛠️ Medverkan
+
+Oavsett om det är stort eller litet, älskar vi bidrag. Underhållarna av den här repositoryn har tidigare byggt öppen källkod och älskar det. Välkommen!
+
+Inte säker på var du ska börja? Du kan:
+
+- [Boka en gratis, icke-pressande parnings-session med en av våra teammedlemmar](https://usemotion.com/meet/teddyni/meet?d=15)!
+
+- Joina våran [Slack](https://join.slack.com/t/mirrorful/shared_invite/zt-1ps2xtxh0-2NaixFfFzSKZbr5gw_AHfA) och ställ frågan till vem som helst där.
+
+Oavsett PR kommer alla Github-avatars från bidragsgivare att läggas till i Mirrorful README med deras tillstånd.
+
+## 🪞 Medverkande
+
+<a href="https://github.com/alexdanilowicz"><img src="https://avatars.githubusercontent.com/u/29822597?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/teddarific"><img src="https://avatars.githubusercontent.com/u/16343600" width="50" height="50" alt=""/></a> <a href="https://github.com/isabellytubao"><img src="https://avatars.githubusercontent.com/u/113177368" width="50" height="50" alt=""/></a> <a href="https://github.com/gfang200"><img src="https://avatars.githubusercontent.com/u/13005240?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/sallyxu"><img src="https://avatars.githubusercontent.com/u/1229627" width="50" height="50" alt=""/></a> <a href="https://github.com/zachsnoek"><img src="https://avatars.githubusercontent.com/u/26049962" width="50" height
