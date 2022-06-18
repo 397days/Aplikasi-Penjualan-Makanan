@@ -178,4 +178,12 @@ Oavsett PR kommer alla Github-avatars från bidragsgivare att läggas till i Mir
 
 ## 🪞 Medverkande
 
-<a href="https://github.com/alexdanilowicz"><img src="https://avatars.githubusercontent.com/u/29822597?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/teddarific"><img src="https://avatars.githubusercontent.com/u/16343600" width="50" height="50" alt=""/></a> <a href="https://github.com/isabellytubao"><img src="https://avatars.githubusercontent.com/u/113177368" width="50" height="50" alt=""/></a> <a href="https://github.com/gfang200"><img src="https://avatars.githubusercontent.com/u/13005240?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/sallyxu"><img src="https://avatars.githubusercontent.com/u/1229627" width="50" height="50" alt=""/></a> <a href="https://github.com/zachsnoek"><img src="https://avatars.githubusercontent.com/u/26049962" width="50" height
+<a href="https://github.com/alexdanilowicz"><img src="https://avatars.githubusercontent.com/u/29822597?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/teddarific"><img src="https://avatars.githubusercontent.com/u/16343600" width="50" height="50" alt=""/></a> <a href="https://github.com/isabellytubao"><img src="https://avatars.githubusercontent.com/u/113177368" width="50" height="50" alt=""/></a> <a href="https://github.com/gfang200"><img src="https://avatars.githubusercontent.com/u/13005240?v=4" width="50" height="50" alt=""/></a> <a href="https://github.com/sallyxu"><img src="https://avatars.githubusercontent.com/u/1229627" width="50" height="50" alt=""/></a> <a href="https://github.com/zachsnoek"><img src="https://avatars.githubusercontent.com/u/26049962" width="50" height="50" alt=""/></a>
+<a href="https://github.com/tobiasdossinger"><img src="https://avatars.githubusercontent.com/u/33021996?v=4" width="50" height="50" alt=""/></a>
+<a href="https://github.com/lagneshthakur"><img src="https://avatars.githubusercontent.com/u/13376802?v=4" width="50" height="50" alt=""/></a>
+
+## 🌎 Översättningar
+
+Mirrorful finns för närvarande tillgängligt på Engelska, [Tyska 🇩🇪](https://github.com/Mirrorful/mirrorful/tree/main/i18n/README.de.md) och [Svenska 🇸🇪](https://github.com/Mirrorful/mirrorful/tree/main/i18n/README.sv.md). Hjälp oss att översätta vår dokumentation och användargränssnitt till ditt språk!
+
+All information finns i [det här ärendet](https://github.com/Mirrorful/mirrorful/issues/18).
