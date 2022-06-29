@@ -45,4 +45,35 @@ export function AddColorSkeleton({
       {backgroundColorString && (
         <Box
           css={{
-            opacity: '0.4'
+            opacity: '0.4',
+            backgroundColor: backgroundColorString,
+            width: 240,
+            height: 240,
+            padding: '24px',
+            borderRadius: 8,
+            color: 'black',
+            border: '1px solid gray',
+          }}
+        >
+          <AddIcon boxSize={6} />
+        </Box>
+      )}
+
+      <Box
+        css={{
+          opacity: '0.4',
+          display: 'flex',
+          flexDirection: 'column',
+          flexWrap: 'wrap',
+          marginLeft: '24px',
+          justifyContent: 'space-between',
+        }}
+        height={240}
+      >
+        {mockVariants.map((mockVariant) => (
+          <MockVariantSquare key={mockVariant} />
+        ))}
+      </Box>
+    </Box>
+  )
+}
