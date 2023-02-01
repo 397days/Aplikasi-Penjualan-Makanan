@@ -54,3 +54,97 @@ export function NamePrimary({
             css={{ marginTop: '32px' }}
             fontSize={20}
             color="gray.500"
+            fontWeight="bold"
+          >
+            The color name is how it will be referenced in code. We recommend
+            simple names like {'"Blue"'} or {'"Light Green"'}.
+          </Text>
+        </Box>
+        <Box css={{ paddingBottom: '32px' }}>
+          <Button
+            size="lg"
+            onClick={() => {
+              onUpdatePage(1)
+            }}
+            css={{ marginRight: '16px' }}
+          >
+            <ArrowBackIcon />
+          </Button>
+          <Button
+            bgColor={shades['500']}
+            color={tinycolor(primaryColor).isDark() ? 'white' : 'black'}
+            _hover={{
+              bgColor: shades['700'],
+            }}
+            _active={{
+              bgColor: shades['800'],
+            }}
+            padding={'8px 36px'}
+            size="lg"
+            rightIcon={<ArrowForwardIcon />}
+            onClick={() => {
+              if (!name) {
+                setError('Please enter a name for your color.')
+                return
+              }
+
+              onUpdatePrimaryName(name)
+              onUpdatePage(3)
+            }}
+          >
+            Next
+          </Button>
+        </Box>
+      </Box>
+      <Box
+        css={{
+          width: '50%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          padding: '64px 32px',
+        }}
+      >
+        <Box
+          css={{
+            width: '100px',
+            height: '100px',
+            marginBottom: '16px',
+            borderRadius: 8,
+          }}
+          bgColor={primaryColor}
+        />
+        <Text
+          css={{ alignSelf: 'flex-start', marginBottom: '4px' }}
+          fontWeight="bold"
+        >
+          Color Name:
+        </Text>
+        <Input
+          placeholder="e.g. Blue"
+          css={{ width: '100%' }}
+          focusBorderColor={primaryColor}
+          errorBorderColor="red.400"
+          isInvalid={!!error}
+          value={name}
+          onChange={(e) => {
+            setName(e.currentTarget.value)
+          }}
+        />
+        {error && (
+          <Text
+            css={{ alignSelf: 'flex-start', marginTop: '8px' }}
+            color="red.400"
+            fontWeight="medium"
+          >
+            {error}
+          </Text>
+        )}
+
+        <Text css={{ marginTop: '32px' }} color="gray.400" fontWeight="medium">
+          {`Tip: While "Bob" is a great name for a human, it is not for a color.`}
+        </Text>
+      </Box>
+    </Box>
+  )
+}
