@@ -106,4 +106,79 @@ export function OtherColors({
             rightIcon={<ArrowForwardIcon />}
             onClick={() => {
               onUpdatePalette(palette)
- 
+              onUpdatePage(5)
+            }}
+          >
+            Next
+          </Button>
+        </Box>
+      </Box>
+      <Box
+        css={{
+          width: '50%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          padding: '64px 32px',
+        }}
+      >
+        <Stack spacing={4}>
+          <Box css={{ display: 'flex', alignItems: 'center' }}>
+            <Box
+              css={{ display: 'flex', flexDirection: 'column', width: '150px' }}
+            >
+              <Text fontSize={24} fontWeight="black">
+                {primaryName}
+              </Text>
+              <Badge color={primaryColor} css={{ alignSelf: 'flex-start' }}>
+                PRIMARY
+              </Badge>
+            </Box>
+            <Box
+              css={{
+                height: '40px',
+                width: '120px',
+                backgroundColor: primaryColor,
+                marginLeft: '16px',
+                borderRadius: 8,
+              }}
+            />
+          </Box>
+          <hr />
+          <Stack spacing={8}>
+            {palette.map((color) => (
+              <Box
+                css={{ display: 'flex', alignItems: 'center' }}
+                key={color.name}
+              >
+                <Box
+                  css={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    width: '150px',
+                  }}
+                >
+                  <Text fontSize={24} fontWeight="black">
+                    {color.name}
+                  </Text>
+                </Box>
+                <Box
+                  css={{
+                    height: '40px',
+                    width: '120px',
+                    backgroundColor: color.baseColor,
+                    marginLeft: '16px',
+                    borderRadius: 8,
+                  }}
+                />
+              </Box>
+            ))}
+            <Button onClick={handleGeneratePalette} leftIcon={<RepeatIcon />}>
+              Regenerate
+            </Button>
+          </Stack>
+        </Stack>
+      </Box>
+    </Box>
+  )
+}
