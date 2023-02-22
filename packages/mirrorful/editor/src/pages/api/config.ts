@@ -23,4 +23,19 @@ export default async function handler(
 
   // Handle migration from old storage file
   try {
-    const data = await readStorageF
+    const data = await readStorageFile()
+    if (
+      data.colorData &&
+      data.colorData.length > 0 &&
+      tokens.colorData.length === 0
+    ) {
+      store.set('tokens', data)
+      deleteStorageFile()
+      return res.status(200).json(data)
+    }
+  } catch (e) {
+    console.log('No migration needed!')
+  }
+
+  return res.status(200).json(tokens)
+}
