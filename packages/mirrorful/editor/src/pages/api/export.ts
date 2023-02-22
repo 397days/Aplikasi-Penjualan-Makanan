@@ -87,4 +87,30 @@ const generateJsonFile = async ({ colorData, typography }: TTokens) => {
   cjsContent += JSON.stringify(rawJsonObject, null, 2)
   jsonContent += JSON.stringify(rawJsonObject, null, 2)
 
-  await fs.writeFileSync(`${roo
+  await fs.writeFileSync(`${rootPath}/theme_cjs.js`, cjsContent)
+  await fs.writeFileSync(`${rootPath}/theme.js`, jsContent)
+  await fs.writeFileSync(`${rootPath}/theme.ts`, tsContent)
+  await fs.writeFileSync(`${rootPath}/theme.json`, jsonContent)
+}
+
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  const body = JSON.parse(req.body)
+
+  await generateStorageFile({
+    colorData: body.colorData,
+    typography: body.typography,
+  })
+  await generateCssFile({
+    colorData: body.colorData,
+    typography: body.typography,
+  })
+  await generateJsonFile({
+    colorData: body.colorData,
+    typography: body.typography,
+  })
+
+  return res.status(200).json({ message: 'Success' })
+}
